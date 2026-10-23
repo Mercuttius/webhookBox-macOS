@@ -4,7 +4,18 @@
 
 # WebhookBox para macOS
 
-Receba, inspecione e reenvie webhooks em um aplicativo nativo para Mac. Organize eventos em caixas, consulte headers e body e mantenha o histórico no seu computador. Interface em SwiftUI, fonte Fira Code e tema escuro inspirado no GitHub.
+Receba, inspecione e reenvie webhooks em um aplicativo nativo para Mac. Organize eventos em caixas, consulte headers e body e mantenha o histórico no seu computador. Interface em SwiftUI, fonte Fira Code e tema escuro alinhado à suite Endpoint Mapper.
+
+## Novo visual — 0.2.1
+
+- Divisórias claras e contornos removidos; áreas separadas pelos tons de fundo.
+- Fundos e textos alinhados ao Endpoint Mapper, mantendo a identidade azul/verde do WebhookBox.
+- Botões verdes menos intensos e seleção preenchida.
+- Organização das áreas, fonte Fira Code e recursos da 0.2.0 preservados.
+
+![WebhookBox 0.2.1 com o novo visual](./assets/interface-0.2.1.png)
+
+Esta atualização é visual e não adiciona uma nova migração de dados. O diagnóstico nativo Intel passou, incluindo captura HTTP, pesquisa, favoritos, inspeção e renderização. Ambos os instaladores tiveram a integridade verificada; execução em Apple Silicon continua pendente.
 
 ## Download
 
@@ -12,14 +23,14 @@ Receba, inspecione e reenvie webhooks em um aplicativo nativo para Mac. Organize
 
 | Seu Mac | Download |
 | --- | --- |
-| Apple Silicon — M1 ou posterior | [Baixar WebhookBox para Apple Silicon (.dmg)](https://github.com/Mercuttius/webhookBox-macOS/releases/download/v0.2.0/WebhookBox-macOS-arm64.dmg) |
-| Intel | [Baixar WebhookBox para Intel (.dmg)](https://github.com/Mercuttius/webhookBox-macOS/releases/download/v0.2.0/WebhookBox-macOS-x86_64.dmg) |
+| Apple Silicon — M1 ou posterior | [Baixar WebhookBox para Apple Silicon (.dmg)](https://github.com/Mercuttius/webhookBox-macOS/releases/download/v0.2.1/WebhookBox-macOS-arm64.dmg) |
+| Intel | [Baixar WebhookBox para Intel (.dmg)](https://github.com/Mercuttius/webhookBox-macOS/releases/download/v0.2.1/WebhookBox-macOS-x86_64.dmg) |
 
 Para identificar o processador, abra **menu Apple  → Sobre Este Mac**. Se aparecer “Chip Apple”, escolha Apple Silicon. Se aparecer “Processador Intel”, escolha Intel.
 
-[Ver a versão e todos os arquivos](https://github.com/Mercuttius/webhookBox-macOS/releases/tag/v0.2.0) · [Verificar integridade dos downloads](https://github.com/Mercuttius/webhookBox-macOS/releases/download/v0.2.0/SHA256SUMS.txt)
+[Ver a versão e todos os arquivos](https://github.com/Mercuttius/webhookBox-macOS/releases/tag/v0.2.1) · [Verificar integridade dos downloads](https://github.com/Mercuttius/webhookBox-macOS/releases/download/v0.2.1/SHA256SUMS.txt)
 
-> **Versão de testes (v0.2.0).** Os aplicativos possuem assinatura local (*ad hoc*), mas ainda não têm assinatura Developer ID nem notarização da Apple. A versão Intel foi executada e testada localmente; a versão Apple Silicon foi compilada e teve sua arquitetura e integridade verificadas, mas ainda não foi executada em um Mac Apple Silicon. A instalação após download em outro Mac ainda precisa de validação.
+> **Versão de testes (v0.2.1).** Os aplicativos possuem assinatura local (*ad hoc*), mas ainda não têm assinatura Developer ID nem notarização da Apple. A versão Intel foi executada e testada localmente; a versão Apple Silicon foi compilada e teve sua arquitetura e integridade verificadas, mas ainda não foi executada em um Mac Apple Silicon. A instalação após download em outro Mac ainda precisa de validação.
 
 ## Instalação
 

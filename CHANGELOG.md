@@ -1,3 +1,24 @@
+# WebhookBox macOS 0.2.1 — visual da suite
+
+Atualização visual para aproximar o WebhookBox do Endpoint Mapper.
+
+- Remoção das divisórias claras e dos contornos dos painéis.
+- Fundos e textos alinhados ao tema da suite.
+- Botões verdes menos intensos e seleção por preenchimento.
+- Layout, Fira Code, logo, identidade azul/verde e funcionalidades preservados.
+
+## Instalação
+
+Requer macOS 15 ou superior. Baixe arm64 para Apple Silicon ou x86_64 para Intel. Encerre o app com ⌘Q, abra o DMG e substitua o aplicativo em Aplicativos. Esta versão não adiciona migração de dados além da já existente na 0.2.0.
+
+## Validação
+
+O diagnóstico nativo Intel passou: captura HTTP, pesquisa, favoritos, inspeção, renderização e parada do servidor. As telas vazia e com evento foram conferidas. Os dois DMGs tiveram a integridade verificada.
+
+Apple Silicon foi compilado, mas ainda não executado em hardware ARM64. Os pacotes continuam com assinatura ad hoc, sem Developer ID/notarização. Instruções de primeira abertura e prévia visual estão no README. Esta é uma versão de testes.
+
+---
+
 # WebhookBox macOS 0.2.0 — histórico completo e favoritos
 
 Esta atualização inicia a evolução gratuita e local do app.
